@@ -13,6 +13,9 @@
 		7F7EAFA729F18EA700764C08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EAFA529F18EA700764C08 /* Main.storyboard */; };
 		7F7EAFA929F18EA800764C08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EAFA829F18EA800764C08 /* Assets.xcassets */; };
 		7F7EAFAC29F18EA800764C08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F7EAFAA29F18EA800764C08 /* LaunchScreen.storyboard */; };
+		7F7EAFB429F192C600764C08 /* FoodTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EAFB329F192C600764C08 /* FoodTableTableViewController.swift */; };
+		7F7EAFB629F1931500764C08 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EAFB529F1931500764C08 /* Meal.swift */; };
+		7F7EAFB829F1932300764C08 /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7EAFB729F1932300764C08 /* Food.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7F7EAFA829F18EA800764C08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F7EAFAB29F18EA800764C08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F7EAFAD29F18EA800764C08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F7EAFB329F192C600764C08 /* FoodTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableTableViewController.swift; sourceTree = "<group>"; };
+		7F7EAFB529F1931500764C08 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		7F7EAFB729F1932300764C08 /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,9 @@
 				7F7EAFA129F18EA700764C08 /* SceneDelegate.swift */,
 				7F7EAFA329F18EA700764C08 /* ViewController.swift */,
 				7F7EAFA529F18EA700764C08 /* Main.storyboard */,
+				7F7EAFB729F1932300764C08 /* Food.swift */,
+				7F7EAFB529F1931500764C08 /* Meal.swift */,
+				7F7EAFB329F192C600764C08 /* FoodTableTableViewController.swift */,
 				7F7EAFA829F18EA800764C08 /* Assets.xcassets */,
 				7F7EAFAA29F18EA800764C08 /* LaunchScreen.storyboard */,
 				7F7EAFAD29F18EA800764C08 /* Info.plist */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F7EAFB629F1931500764C08 /* Meal.swift in Sources */,
+				7F7EAFB429F192C600764C08 /* FoodTableTableViewController.swift in Sources */,
 				7F7EAFA429F18EA700764C08 /* ViewController.swift in Sources */,
 				7F7EAFA029F18EA700764C08 /* AppDelegate.swift in Sources */,
 				7F7EAFA229F18EA700764C08 /* SceneDelegate.swift in Sources */,
+				7F7EAFB829F1932300764C08 /* Food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
